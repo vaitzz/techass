@@ -1,0 +1,16 @@
+{
+  "language": "typescript",
+  "app": "npx ts-node main.ts",
+  "projectId": "b87d71a1-7a0d-4053-b7e9-02bd7d8767c5",
+  "sendCrashReports": "false",
+  "terraformProviders": [
+    "google"
+  ],
+  "terraformModules": [],
+  "context": {
+    "excludeStackIdFromLogicalIds": true,
+    "defaultProvider": "google",
+    "allowSepCharsInLogicalIds": true
+  },
+  "plugins": ["@cdktf/provider-google"]
+}
